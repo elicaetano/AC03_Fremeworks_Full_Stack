@@ -3,7 +3,7 @@ from flask import Flask, render_template, json, request, jsonify
 
 app = Flask(__name__)
 
-@app.route('/teste')
+@app.route('/')
 def index():
     return render_template('form.html')
 
